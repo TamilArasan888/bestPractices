@@ -1,0 +1,14 @@
+package com.chainsys.bestPractices.decoupled;
+
+public class WoodenWheel implements Iwheel
+{
+	public String location;
+	public void rotate() {
+	System.out.println("wooden wheel rotating");
+	
+	}
+	public void stopRotation() {
+		System.out.println("wooden wheel stopped");
+		
+	}
+}
