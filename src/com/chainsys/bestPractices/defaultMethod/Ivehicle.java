@@ -7,6 +7,7 @@ public interface Ivehicle {
 	}
 
 }
+
 class Car implements Ivehicle
 {
 	@Override
